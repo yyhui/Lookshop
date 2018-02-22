@@ -1,0 +1,113 @@
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+em,
+img,
+strong,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+article,
+aside,
+canvas,
+footer,
+header,
+nav,
+section,
+input,
+textarea,
+button {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+    vertical-align: baseline;
+}
+
+html,
+body {
+    font-size: 12px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+article,
+aside,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+}
+
+audio,
+canvas,
+video {
+    display: inline-block;
+}
+
+input,
+button,
+textarea {
+    outline: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.62;
+}
+
+.clearfix::before
+.clearfix::after {
+    display: block;
+    visibility: hidden;
+    clear: both;
+
+    height: 0;
+
+    content: ".";
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}

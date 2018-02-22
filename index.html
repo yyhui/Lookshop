@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lookshop</title>
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <script src="scripts/global.js"></script>
+    <script src="scripts/carousel.js"></script>
+    <script src="scripts/tabs.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="site-nav">
+            <div class="wrapper">
+                <div class="care fl">CUSTOM CARE: 888-23-4567</div>
+                <ul class="account fr">
+                    <li>$ US<span class="down-triangle"></span></li>
+                    <li>MY ACCOUNT</li>
+                    <li><div class="search"></div></li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="ls-nav">
+            <div class="wrapper">
+                <div class="cart">
+                    <div class="top-cart">Your cart<span class="down-triangle"></span></div>
+                    <div class="bottom-cart">
+                        <span id="item-num">0 ITEMS</span>
+                        <span class="pipe">|</span>
+                        <span id="price">$ 0</span>
+                    </div>
+                </div>
+                <div class="menu">
+                    <div class="menu-header">
+                        MENU
+                        <div class="menu-link" href=""><img src="images/strip.png"></div>
+                    </div>
+                    <ul class="nav-list">
+                        <li>
+                            new<span class="down-triangle"></span>
+                        </li>
+                        <li>
+                            designers<span class="down-triangle"></span>
+                        </li>
+                        <li>
+                            women<span class="down-triangle"></span>
+                        </li>
+                        <li>
+                            men<span class="down-triangle"></span>
+                        </li>
+                        <li>
+                            clearence<span class="down-triangle"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="carousel">
+        <div id="gallery">
+            <div class="list">
+                <img class="item" src="images/item1.png">
+                <img class="item" src="images/item2.jpg">
+                <img class="item" src="images/item3.jpg">
+                <img class="item" src="images/item2.jpg">
+                <img class="item" src="images/item3.jpg">
+            </div>
+            <button class="shop-btn">SHOP NOW</button>
+            <button class="pre-btn"><</button>
+            <button class="next-btn">></button>
+            <div class="btns">
+                <span class="on" val="1"></span>
+                <span val="2"></span>
+                <span val="3"></span>
+                <span val="4"></span>
+                <span val="5"></span>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="wrapper">
+            <div class="update">
+                <span class="fl">Stay updated</span>
+                <input id="email" type="text" name="email" placeholder="Your email address">
+                <button id="add-email">+</button>
+            </div>
+            <div class="find-us">
+                <span>Find us here</span>
+                <span><img src="images/facebook.png"></span>
+                <span><img src="images/twitter.png"></span>
+                <span><img src="images/pin.png"></span>
+            </div>
+        </div>
+    </section>
+    <section class="list-core">
+        <div class="wrapper">
+            <div class="first">
+                <img src="images/outfit.png">
+            </div>
+            <div class="second">
+                <img src="images/summer.png">
+            </div>
+            <div class="third">
+                <img src="images/best.png">
+                <p>BEST SELLERS<span>&nbsp;&nbsp;&#62;</span></p>
+            </div>
+            <div class="forth">
+                <img src="images/fall.png">
+                <button class="shop-btn">SHOP NOW</button>
+            </div>
+        </div>
+    </section>
+    <section class="item-list">
+        <div class="wrapper">
+            <ul class="item-nav">
+                <li class="item-head selected" val="0">WHAT'S HOT?</li>
+                <li class="item-head" val="1">DESIGNERS</li>
+                <li class="item-head" val="2">FEATURED</li>
+                <li class="item-head" val="3">LATEST</li>
+            </ul>
+            <button class="left-btn">&lt;</button>
+            <button class="right-btn">&gt;</button>
+        </div>
+        <div class="content show">
+            <div class="item">
+                <div class="inner">
+                    <div class="item-inner">
+                        <img src="images/items/1.jpg" alt="">
+                        <div class="shop-it">
+                            <img src="images/shopit.png">
+                            <p>SHOP IT</p>
+                        </div>
+                        <div class="sold-out">SALE</div>
+                    </div>
+                    <div class="intro">
+                        <p class="info">MIMOSA LACE DRESS</p>
+                        <p class="price">$76.95</p>
+                        <button class="add-item">ADD TO CART +</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="inner">
+                    <div class="item-inner">
+                        <img src="images/items/2.jpg" alt="">
+                        <div class="shop-it">
+                            <img src="images/shopit.png">
+                            <p>SHOP IT</p>
+                        </div>
+                    </div>
+                    <div class="intro">
+                        <p class="info">MIMOSA LACE DRESS</p>
+                        <p class="price">$76.95</p>
+                        <button class="add-item">ADD TO CART +</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="inner">
+                    <div class="item-inner">
+                        <img src="images/items/3.jpg" alt="">
+                        <div class="shop-it">
+                            <img src="images/shopit.png">
+                            <p>SHOP IT</p>
+                        </div>
+                    </div>
+                    <div class="intro">
+                        <p class="info">MIMOSA LACE DRESS</p>
+                        <p class="price">$76.95</p>
+                        <button class="add-item">ADD TO CART +</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="inner">
+                    <div class="item-inner">
+                        <img src="images/items/4.jpg" alt="">
+                        <div class="shop-it">
+                            <img src="images/shopit.png">
+                            <p>SHOP IT</p>
+                        </div>
+                    </div>
+                    <div class="intro">
+                        <p class="info">MIMOSA LACE DRESS</p>
+                        <p class="price">$76.95</p>
+                        <button class="add-item">ADD TO CART +</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="inner">
+                    <div class="item-inner">
+                        <img src="images/items/5.jpg" alt="">
+                        <div class="shop-it">
+                            <img src="images/shopit.png">
+                            <p>SHOP IT</p>
+                        </div>
+                    </div>
+                    <div class="intro">
+                        <p class="info">MIMOSA LACE DRESS</p>
+                        <p class="price">$76.95</p>
+                        <button class="add-item">ADD TO CART +</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="item">
+                <div class="inner">
+                    <div class="item-inner">
+                        <img src="images/items/1.jpg" alt="">
+                        <div class="shop-it">
+                            <img src="images/shopit.png">
+                            <p>SHOP IT</p>
+                        </div>
+                        <div class="sold-out">SALE</div>
+                    </div>
+                    <div class="intro">
+                        <p class="info">MIMOSA LACE DRESS</p>
+                        <p class="price">$76.95</p>
+                        <button class="add-item">ADD TO CART +</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="inner">
+                    <div class="item-inner">
+                        <img src="images/items/2.jpg" alt="">
+                        <div class="shop-it">
+                            <img src="images/shopit.png">
+                            <p>SHOP IT</p>
+                        </div>
+                    </div>
+                    <div class="intro">
+                        <p class="info">MIMOSA LACE DRESS</p>
+                        <p class="price">$76.95</p>
+                        <button class="add-item">ADD TO CART +</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="inner">
+                    <div class="item-inner">
+                        <img src="images/items/1.jpg" alt="">
+                        <div class="shop-it">
+                            <img src="images/shopit.png">
+                            <p>SHOP IT</p>
+                        </div>
+                        <div class="sold-out">SALE</div>
+                    </div>
+                    <div class="intro">
+                        <p class="info">MIMOSA LACE DRESS</p>
+                        <p class="price">$76.95</p>
+                        <button class="add-item">ADD TO CART +</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="inner">
+                    <div class="item-inner">
+                        <img src="images/items/2.jpg" alt="">
+                        <div class="shop-it">
+                            <img src="images/shopit.png">
+                            <p>SHOP IT</p>
+                        </div>
+                    </div>
+                    <div class="intro">
+                        <p class="info">MIMOSA LACE DRESS</p>
+                        <p class="price">$76.95</p>
+                        <button class="add-item">ADD TO CART +</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="inner">
+                    <div class="item-inner">
+                        <img src="images/items/5.jpg" alt="">
+                        <div class="shop-it">
+                            <img src="images/shopit.png">
+                            <p>SHOP IT</p>
+                        </div>
+                    </div>
+                    <div class="intro">
+                        <p class="info">MIMOSA LACE DRESS</p>
+                        <p class="price">$76.95</p>
+                        <button class="add-item">ADD TO CART +</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="item">
+                <div class="inner">
+                    <div class="item-inner">
+                        <img src="images/items/3.jpg" alt="">
+                        <div class="shop-it">
+                            <img src="images/shopit.png">
+                            <p>SHOP IT</p>
+                        </div>
+                        <div class="sold-out">SALE</div>
+                    </div>
+                    <div class="intro">
+                        <p class="info">MIMOSA LACE DRESS</p>
+                        <p class="price">$76.95</p>
+                        <button class="add-item">ADD TO CART +</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="inner">
+                    <div class="item-inner">
+                        <img src="images/items/4.jpg" alt="">
+                        <div class="shop-it">
+                            <img src="images/shopit.png">
+                            <p>SHOP IT</p>
+                        </div>
+                        <div class="sold-out">SALE</div>
+                    </div>
+                    <div class="intro">
+                        <p class="info">MIMOSA LACE DRESS</p>
+                        <p class="price">$76.95</p>
+                        <button class="add-item">ADD TO CART +</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="inner">
+                    <div class="item-inner">
+                        <img src="images/items/3.jpg" alt="">
+                        <div class="shop-it">
+                            <img src="images/shopit.png">
+                            <p>SHOP IT</p>
+                        </div>
+                        <div class="sold-out">SALE</div>
+                    </div>
+                    <div class="intro">
+                        <p class="info">MIMOSA LACE DRESS</p>
+                        <p class="price">$76.95</p>
+                        <button class="add-item">ADD TO CART +</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="inner">
+                    <div class="item-inner">
+                        <img src="images/items/4.jpg" alt="">
+                        <div class="shop-it">
+                            <img src="images/shopit.png">
+                            <p>SHOP IT</p>
+                        </div>
+                    </div>
+                    <div class="intro">
+                        <p class="info">MIMOSA LACE DRESS</p>
+                        <p class="price">$76.95</p>
+                        <button class="add-item">ADD TO CART +</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="inner">
+                    <div class="item-inner">
+                        <img src="images/items/5.jpg" alt="">
+                        <div class="shop-it">
+                            <img src="images/shopit.png">
+                            <p>SHOP IT</p>
+                        </div>
+                    </div>
+                    <div class="intro">
+                        <p class="info">MIMOSA LACE DRESS</p>
+                        <p class="price">$76.95</p>
+                        <button class="add-item">ADD TO CART +</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="item">
+                <div class="inner">
+                    <div class="item-inner">
+                        <img src="images/items/5.jpg" alt="">
+                        <div class="shop-it">
+                            <img src="images/shopit.png">
+                            <p>SHOP IT</p>
+                        </div>
+                        <div class="sold-out">SALE</div>
+                    </div>
+                    <div class="intro">
+                        <p class="info">MIMOSA LACE DRESS</p>
+                        <p class="price">$76.95</p>
+                        <button class="add-item">ADD TO CART +</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="inner">
+                    <div class="item-inner">
+                        <img src="images/items/5.jpg" alt="">
+                        <div class="shop-it">
+                            <img src="images/shopit.png">
+                            <p>SHOP IT</p>
+                        </div>
+                    </div>
+                    <div class="intro">
+                        <p class="info">MIMOSA LACE DRESS</p>
+                        <p class="price">$76.95</p>
+                        <button class="add-item">ADD TO CART +</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="inner">
+                    <div class="item-inner">
+                        <img src="images/items/3.jpg" alt="">
+                        <div class="shop-it">
+                            <img src="images/shopit.png">
+                            <p>SHOP IT</p>
+                        </div>
+                    </div>
+                    <div class="intro">
+                        <p class="info">MIMOSA LACE DRESS</p>
+                        <p class="price">$76.95</p>
+                        <button class="add-item">ADD TO CART +</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="inner">
+                    <div class="item-inner">
+                        <img src="images/items/4.jpg" alt="">
+                        <div class="shop-it">
+                            <img src="images/shopit.png">
+                            <p>SHOP IT</p>
+                        </div>
+                    </div>
+                    <div class="intro">
+                        <p class="info">MIMOSA LACE DRESS</p>
+                        <p class="price">$76.95</p>
+                        <button class="add-item">ADD TO CART +</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="inner">
+                    <div class="item-inner">
+                        <img src="images/items/5.jpg" alt="">
+                        <div class="shop-it">
+                            <img src="images/shopit.png">
+                            <p>SHOP IT</p>
+                        </div>
+                    </div>
+                    <div class="intro">
+                        <p class="info">MIMOSA LACE DRESS</p>
+                        <p class="price">$76.95</p>
+                        <button class="add-item">ADD TO CART +</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="load-more">LOAD MORE</div>
+    </section>
+    <section class="clearance">
+        <div class="wrapper">
+            <div class="off-header"></div>
+            <div class="col-4-content">
+                <div class="item">
+                    <div class="inner">
+                        <div class="item-inner">
+                            <img src="images/items/2.jpg" alt="">
+                            <div class="shop-it">
+                                <img src="images/shopit.png">
+                                <p>SHOP IT</p>
+                            </div>
+                        </div>
+                        <div class="intro">
+                            <p class="info">MIMOSA LACE DRESS</p>
+                            <p class="price">$76.95</p>
+                            <button class="add-item">ADD TO CART +</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="inner">
+                        <div class="item-inner">
+                            <img src="images/items/3.jpg" alt="">
+                            <div class="shop-it">
+                                <img src="images/shopit.png">
+                                <p>SHOP IT</p>
+                            </div>
+                        </div>
+                        <div class="intro">
+                            <p class="info">MIMOSA LACE DRESS</p>
+                            <p class="price">$76.95</p>
+                            <button class="add-item">ADD TO CART +</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="inner">
+                        <div class="item-inner">
+                            <img src="images/items/4.jpg" alt="">
+                            <div class="shop-it">
+                                <img src="images/shopit.png">
+                                <p>SHOP IT</p>
+                            </div>
+                        </div>
+                        <div class="intro">
+                            <p class="info">MIMOSA LACE DRESS</p>
+                            <p class="price">$76.95</p>
+                            <button class="add-item">ADD TO CART +</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="inner">
+                        <div class="item-inner">
+                            <img src="images/items/5.jpg" alt="">
+                            <div class="shop-it">
+                                <img src="images/shopit.png">
+                                <p>SHOP IT</p>
+                            </div>
+                        </div>
+                        <div class="intro">
+                            <p class="info">MIMOSA LACE DRESS</p>
+                            <p class="price">$76.95</p>
+                            <button class="add-item">ADD TO CART +</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="load-more">LOAD MORE</div>
+        </div>
+    </section>
+    <section class="brands">
+        <p>FAVOURITE BRANDS</p>
+        <div class="brand">
+            <div class="wrapper">
+                <div class="brand-outer">
+                    <div class="brand-inner">
+                        <img src="images/addict.png">
+                    </div>
+                </div>
+                <div class="brand-outer">
+                    <div class="brand-inner">
+                        <img src="images/adidas.png">
+                    </div>
+                </div>
+                <div class="brand-outer">
+                    <div class="brand-inner">
+                        <img src="images/ship.png">
+                    </div>
+                </div>
+                <div class="brand-outer">
+                    <div class="brand-inner">
+                        <img src="images/boy.png">
+                    </div>
+                </div>
+                <div class="brand-outer">
+                    <div class="brand-inner">
+                        <img src="images/converse.png">
+                    </div>
+                </div>
+                <div class="brand-outer">
+                    <div class="brand-inner">
+                        <img src="images/ck.png">
+                    </div>
+                </div>
+                <div class="brand-outer">
+                    <div class="brand-inner">
+                        <img src="images/edwin.png">
+                    </div>
+                </div>
+                <div class="brand-outer">
+                    <div class="brand-inner">
+                        <img src="images/grenson.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-shop">
+        <h3>About LookShop</h3>
+        <p class="wrapper">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibhThis is Photoshop's version  of Lorem Ipsum. Proin gravida nibhThis is Photoshop's version  of Lorem Ipsum. Proin gravida nibhThis is Photoshop's version  of Lorem Ipsum. Proin gravida nibhThis is Photoshop's version  of Lorem Ipsum. Proin gravida nibhThis is Photoshop's version  of Lorem Ipsum. Proin gravida nibhThis is Photoshop's version  of Lorem Ipsum. Proin gravida nibh.</p>
+    </section>
+    <footer>
+        <div class="accept">
+            <span>We accept</span><img src="images/card.png">
+        </div>
+        <div class="link">
+            <div class="wrapper">
+                <div class="link-left">
+                    <div class="link-part">
+                        <h4>Customer Service</h4>
+                        <ul>
+                            <li>Contact</li>
+                            <li>FAQ</li>
+                            <li>Terms of payment</li>
+                            <li>Terms of sale</li>
+                            <li>Delivery terms and conditions</li>
+                            <li>Returns and Refunds</li>
+                        </ul>
+                    </div>
+                    <div class="link-part">
+                        <h4>Information</h4>
+                        <ul>
+                            <li>Affiliate</li>
+                            <li>Cookies</li>
+                            <li>How to Shop</li>
+                            <li>About Nelly</li>
+                            <li>Investor relations</li>
+                        </ul>
+                    </div>
+                    <div class="link-part">
+                        <h4>Campaigns</h4>
+                        <ul>
+                            <li>Evening dresses</li>
+                            <li>Makeup</li>
+                            <li>Fashion forward</li>
+                            <li>training clothes</li>
+                            <li>Special Occasion Dresses</li>
+                        </ul>
+                    </div>
+                    <div class="link-part">
+                        <h4>Stores</h4>
+                        <ul>
+                            <li>Paris</li>
+                            <li>New York</li>
+                            <li>London</li>
+                            <li>Madrid</li>
+                            <li>Tokio</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="link-right">
+                    <h4>Social</h4>
+                    <div class="socials">
+                        <img src="images/twitter2.png">
+                        <img src="images/p.png">
+                        <img src="images/f.png">
+                        <img src="images/g.png">
+                        <img src="images/t.png">
+                        <img src="images/v.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="wrapper">
+                <ul>
+                    <div class="cp-menu"></div>
+                    <li>Privacy & Cookies</li>
+                    <li>Terms & Conditions</li>
+                    <li>Accessibillity</li>
+                    <li>Store Directory</li>
+                    <li>About Us</li>
+                </ul>
+                <div class="copy">
+                    <p>ⓒ Lookshop.com</p>
+                    <p>All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
